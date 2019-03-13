@@ -1,8 +1,8 @@
 body {
     background-color: #e1e388;
-  }
-  
-  .field {
+}
+
+.field {
     display: flex;
     padding: 10px;
     width: 25%;
@@ -11,21 +11,21 @@ body {
     font-size: 1.3em;
     flex-direction: column;
     align-items: center;
-  }
-  
-  .box {
+}
+
+.box {
     border: 2px solid #aaa719;
     background-color: #d4d37f;
     margin-bottom: 20px;
     padding: 10px;
     width: 80%;
-  }
-  
-  .box:last-child {
+}
+
+.box:last-child {
     margin-bottom: 0;
-  }
-  
-  button.btn {
+}
+
+button.btn {
     margin-right: 10px;
     padding: 10px;
     margin-top: 10px;
@@ -33,33 +33,37 @@ body {
     font-size: 0.65em;
     color: #fff;
     outline: none;
-  }
-  
-  .btn.light {
+}
+
+.btn.light {
     background-color: #4eafc9;
     border: 2px solid #2a89a2;
-  }
-  
-  .btn.red {
+}
+
+.btn.red {
     background-color: #dda66d;
     border: 2px solid #b6821a;
-  }
-  
-  .btn.light:hover {
+}
+
+.btn.light:hover {
     background-color: #2a89a2;
     border-color: #1d6f85;
-  }
-  
-  .btn.red:hover {
+}
+
+.btn.red:hover {
     background-color: #b6821a;
     border-color: #946912;
-  }
+}
 
-  textarea:focus {
-      border: 1.5px solid #6d79cd;
-  }
+textarea:focus {
+    border: 1.5px solid #6d79cd;
+}
 
-  .btn.success {
-      background-color: #4fc966;
-      border: 2px solid #12a36c;
-  }
+.btn.success {
+    background-color: #4fc966;
+    border: 2px solid #12a36c;
+}
+
+.btn.new {
+    margin-bottom: 10px;
+}
